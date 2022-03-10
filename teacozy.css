@@ -1,0 +1,140 @@
+* {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica, sans-serif;
+    opacity: 0.9;
+    font-size: 22px;
+    margin: auto;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    height: 69px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    opacity: 1;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+    width: 12%;
+}
+
+header a {
+    margin-right: 15px;
+}
+
+nav {
+    margin-right: 10px;
+}
+
+#mission {
+    background-image: url("./img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    height: 700px;
+    width: 100%;
+}
+
+section {
+    width: 1200px;
+    background-color: black;
+    z-index: auto;
+    opacity: 1;
+}
+
+h4,
+h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+#featured h2 {
+    margin-top: 38px;
+}
+
+#featured h4 {
+    margin-top: 23px;
+    margin-bottom: 28px;
+}
+
+.container-tea {
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.product img {
+    height: 200px;
+    width: 300px;
+    padding: 10px 10px;
+    justify-content: center;
+}
+
+#locations {
+    background-image: url("./img-locations-background.jpg");
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto 40px auto;
+    padding-top: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.head {
+    text-align: center;
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.location-box {
+    max-width: 1050px;
+    margin: 15px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.location {
+    width: 300px;
+    margin-bottom: auto;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: black;
+    opacity: 1;
+    flex-basis: 30%;
+}
+
+.contact {
+    height: 200px;
+}
+
+.copyright {
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+h5 {
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
